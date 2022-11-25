@@ -6,25 +6,25 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Wiki Gcom',
+  tagline: 'La Bible du Studio',
+  url: 'http://docusaurus.local/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'gcommeuneidee', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'fr',
+    locales: ['fr'],
   },
   plugins: [
     [
@@ -32,7 +32,27 @@ const config = {
       {
         systemvars: true
       }
-    ]
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'blocks',
+        path: 'blocks',
+        routeBasePath: 'blocks',
+        sidebarPath: require.resolve('./sidebars.js'),
+        // ... autres options
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'rgaa',
+        path: 'rgaa',
+        routeBasePath: 'rgaa',
+        sidebarPath: require.resolve('./sidebars.js'),
+        // ... autres options
+      },
+    ],
   ],
   presets: [
     [
@@ -41,44 +61,49 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          showReadingTime: true
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/assets/css/custom.css'),
         },
       }),
     ],
   ],
 
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Gcommeuneidée',
           src: 'img/logo.svg',
         },
         items: [
+          
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
+            position: 'right',
+            label: 'Starter',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            label:'Blocks WP',
+            to: '/blocks/blocks',
+            position:'right',
+          },
+          {
+            label:'RGAA',
+            to: '/rgaa/intro',
+            position:'right',
+          },
+          //{to: '/blog', label: 'Blocks WP', position: 'right'},
+          {to: 'maintenance', label: 'Maintenance', position: 'right'},
+          // {to: '/blog', label: 'Blog', position: 'right'},
+          {
+            href: 'https://github.com/gcommeuneidee',
             label: 'GitHub',
             position: 'right',
           },
@@ -103,36 +128,29 @@ const config = {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Le site',
+                href: 'https://www.gcommeuneidee.com/',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Ticketing',
+                href: 'https://gcommeuneide.freshdesk.com/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} G comme une idée.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      
     }),
 };
 

@@ -10,8 +10,8 @@ export default function Root({ children }) {
     const [userAuth, setUserAuth] = useState(null);
     const [authLoading, setAuthLoading] = useState(false);
 
-    const [email, setMail] = useState("antoine.desinety@gcommeuneidee.com");
-    const [mdp, setMDP] = useState("antoine");
+    const [email, setMail] = useState(null);
+    const [mdp, setMDP] = useState(null);
 
     const [error, setError] = useState(null)
 
