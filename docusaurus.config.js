@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
+const lightCodeTheme = require('prism-react-renderer/themes/palenight');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -53,6 +53,16 @@ const config = {
         // ... autres options
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'guides',
+        path: 'guides',
+        routeBasePath: 'guides',
+        sidebarPath: require.resolve('./sidebars.js'),
+        // ... autres options
+      },
+    ],
   ],
   presets: [
     [
@@ -90,13 +100,18 @@ const config = {
             label: 'Starter',
           },
           {
-            label:'Blocks WP',
+            label:'Blocs WP',
             to: '/blocks/blocks',
             position:'right',
           },
           {
             label:'RGAA',
             to: '/rgaa/intro',
+            position:'right',
+          },
+          {
+            label:'Guides',
+            to: '/guides/guides',
             position:'right',
           },
           //{to: '/blog', label: 'Blocks WP', position: 'right'},
@@ -149,6 +164,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['php', 'powershell']
       },
       
     }),

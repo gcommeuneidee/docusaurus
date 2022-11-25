@@ -7,6 +7,10 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import colibri from'@site/static/img/colibri.png'
+import pictoStarter from'@site/static/img/picto-starter.png'
+import pictoBlocks from'@site/static/img/picto-blocks.png'
+import pictoCSS from'@site/static/img/picto-css.png'
+import pictoRGAA from'@site/static/img/picto-rgaa.png'
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -33,28 +37,63 @@ export default function Home() {
 
           <div className='accueil__listeBlocs'>
             <article>
+              <figure><img src={pictoStarter} /></figure>
               <h2>Le Starter</h2>
-              <p>Thème customisé initial pour WordPress.</p>
+              <p>Tout savoir sur notre thème customisé pour WordPress.</p>
               <p><a href={useBaseUrl('docs/intro')}>Voir la documentation</a></p>
             </article>
 
             <article>
+              <figure><img src={pictoBlocks} /></figure>
               <h2>Les Blocs</h2>
               <p>Liste des blocs gutenberg développés sur-mesure.</p>
               <p><a href={useBaseUrl('blocks/blocks')}>Voir la liste</a></p>
             </article>
 
             <article>
+              <figure><img src={pictoCSS} /></figure>
               <h2>La méthode CSS</h2>
               <p>Organisation spécifique des propriétés CSS pour une meilleure lisibilité.</p>
               <p><a href={useBaseUrl('blocks/blocks')}>Voir la liste</a></p>
             </article>
 
             <article>
+              <figure><img src={pictoRGAA} /></figure>
               <h2>Le RGAA</h2>
               <p>Modèles de composants validés pour l'accessibilité.</p>
               <p><a href={useBaseUrl('rgaa/intro')}>Voir les modèles</a></p>
             </article>
+          </div>
+
+          <h2>Tous nos guides :</h2>
+
+          <div className='accueil__listeGuides'>
+
+            <article>
+              <h3>Webpack</h3>
+              <p><a href={useBaseUrl('rgaa/intro')}>Lire le guide</a></p>
+            </article>
+
+            <article>
+              <h3>WP-CLI</h3>
+              <p><a href={useBaseUrl('rgaa/intro')}>Lire le guide</a></p>
+            </article>
+
+            <article>
+              <h3>Imagik</h3>
+              <p><a href={useBaseUrl('rgaa/intro')}>Lire le guide</a></p>
+            </article>
+
+            <article>
+              <h3>Htaccess</h3>
+              <p><a href={useBaseUrl('rgaa/intro')}>Lire le guide</a></p>
+            </article>
+            
+            <article>
+              <h3>Le SSH</h3>
+              <p><a href={useBaseUrl('rgaa/intro')}>Lire le guide</a></p>
+            </article>
+
           </div>
 
           <div class="theme-admonition theme-admonition-info alert alert--info admonition_node_modules-@docusaurus-theme-classic-lib-theme-Admonition-styles-module">
@@ -62,9 +101,11 @@ export default function Home() {
               <span class="admonitionIcon_node_modules-@docusaurus-theme-classic-lib-theme-Admonition-styles-module"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info
             </div>
             <div class="admonitionContent_node_modules-@docusaurus-theme-classic-lib-theme-Admonition-styles-module">
-              <p>Nous rappelons que les ressources présentées ici, sont la <strong>propriété du Studio G comme une idée</strong> et ne doivent pas faire l'objet d'une diffusion publique.</p>
+              <p><small>Nous rappelons que les ressources présentées ici, sont la <strong>propriété du Studio G comme une idée</strong> et ne doivent pas faire l'objet d'une diffusion publique.</small></p>
             </div>
           </div>
+
+          <p>&nbsp;</p>
 
         </div>
 

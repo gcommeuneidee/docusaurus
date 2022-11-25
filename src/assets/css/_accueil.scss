@@ -30,11 +30,36 @@
         display:grid;grid-template-columns:repeat(4, 1fr);gap:30px;
 
         article {
-            padding:1.5em 2em;
+            padding:2em 2em 1em 2em;
             background-color:#fff;box-shadow:0 6px 20px rgba(#000, .1);border-radius:20px;
 
             h2 {
                 margin-top:0;
+            }
+
+            figure {
+                width:100px;margin:0 0 20px 0;
+
+                img {
+                    display:block;
+                    width:100%;height:auto;
+                }
+            }
+        }
+    }
+
+    &__listeGuides {
+        margin:25px 0 50px 0;
+        display:grid;grid-template-columns:repeat(6, 1fr);gap:30px;
+
+        article {
+            padding:2em 2em 1em 2em;
+            font-size:.8em;
+            background-color:#fff;border-radius:20px;box-shadow:0 6px 20px rgba(#000, .1);
+
+            h3 {
+                margin-top:0;
+                font-size:1.4em;
             }
         }
     }
@@ -46,6 +71,10 @@
         &__listeBlocs {
             grid-template-columns:repeat(3, 1fr);
         }
+
+        &__listeGuides {
+            grid-template-columns:repeat(4, 1fr);
+        }
     } 
 }
 
@@ -54,6 +83,9 @@
         &__listeBlocs {
             grid-template-columns:repeat(2, 1fr);
         }
+        &__listeGuides {
+            grid-template-columns:repeat(3, 1fr);
+        }
     } 
 }
 
@@ -61,6 +93,9 @@
     .accueil {
         &__listeBlocs {
             grid-template-columns:1fr;
+        }
+        &__listeGuides {
+            grid-template-columns:repeat(2, 1fr);
         }
     } 
 }
