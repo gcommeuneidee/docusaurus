@@ -9,7 +9,7 @@ const config = {
   title: 'Wiki Gcom',
   tagline: 'La Bible du Studio',
   url: 'https://gcommeuneidee.github.io',
-  baseUrl: '/',
+  baseUrl: '/docusaurus/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
