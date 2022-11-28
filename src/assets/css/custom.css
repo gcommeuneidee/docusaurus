@@ -120,6 +120,13 @@ h3 {
   font-size: 2.4rem;
 }
 
+main article ol, main article ul {
+  margin: 0 0 30px 30px;
+}
+main article .theme-admonition {
+  margin: 0 0 50px 0;
+}
+
 /*
 **
 */
@@ -144,19 +151,24 @@ h3 {
 .navbar__items--right button:hover {
   color: #ff256c;
 }
-.navbar__item {
+.navbar__link {
   padding: 1.4rem 1.8rem;
   font-size: 1.4rem;
   text-transform: uppercase;
   font-weight: 900;
   border-right: 1px solid #ddd;
 }
-.navbar__item:hover {
+.navbar__link:hover {
   background-color: #ff256c;
   color: #fff;
 }
 .navbar__item:last-of-type {
   margin-right: 2rem;
+}
+.navbar .dropdown__link {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 /*

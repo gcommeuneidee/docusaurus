@@ -27,6 +27,16 @@ h3 {
     font-size:2.4rem;
 }
 
+main article {
+    ol, ul {
+        margin:0 0 30px 30px;
+    }
+
+    .theme-admonition {
+        margin:0 0 50px 0;
+    }
+}
+
 
 /*
 **
@@ -60,7 +70,7 @@ h3 {
         }
     }
 
-    &__item {
+    &__link {
         padding:1.4rem 1.8rem;
         font-size:1.4rem;text-transform:uppercase;font-weight:900;
         border-right:1px solid #ddd;
@@ -68,9 +78,19 @@ h3 {
         &:hover {
             background-color:$rose;color:#fff;
         }
+    }
+
+    &__item {
+
 
         &:last-of-type {
             margin-right:2rem;
+        }
+    }
+
+    .dropdown {
+        &__link {
+            font-size:1.1rem;text-transform:uppercase;font-weight:900;
         }
     }
     

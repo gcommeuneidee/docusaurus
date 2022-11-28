@@ -104,15 +104,24 @@ const config = {
             to: '/blocks/blocks',
             position:'right',
           },
+          {to: 'methode-css', label: 'PECT', position: 'right'},
           {
             label:'RGAA',
             to: '/rgaa/intro',
             position:'right',
           },
           {
+            type: 'dropdown',
             label:'Guides',
             to: '/guides/guides',
             position:'right',
+            items: [
+              {to: '/guides/guide-backing', label: 'Backing'},
+              {to: '/guides/guide-htaccess', label: 'HTACCESS'},
+              {to: '/guides/guide-imagik', label: 'Imagik'},
+              {to: '/guides/guide-SSH', label: 'SSH'},
+              {to: '/guides/guide-wpcli', label: 'WP-CLI'},
+            ]
           },
           //{to: '/blog', label: 'Blocks WP', position: 'right'},
           {to: 'maintenance', label: 'Maintenance', position: 'right'},
@@ -164,7 +173,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['php', 'powershell']
+        additionalLanguages: ['php', 'powershell', 'scss']
       },
       
     }),

@@ -54,7 +54,7 @@ export default function Home() {
               <figure><img src={pictoCSS} /></figure>
               <h2>La méthode CSS</h2>
               <p>Organisation spécifique des propriétés CSS pour une meilleure lisibilité.</p>
-              <p><a href={useBaseUrl('blocks/blocks')}>Voir la liste</a></p>
+              <p><a href={useBaseUrl('methode-css')}>Voir la méthode</a></p>
             </article>
 
             <article>
@@ -70,28 +70,23 @@ export default function Home() {
           <div className='accueil__listeGuides'>
 
             <article>
-              <h3>Webpack</h3>
-              <p><a href={useBaseUrl('rgaa/intro')}>Lire le guide</a></p>
-            </article>
-
-            <article>
               <h3>WP-CLI</h3>
-              <p><a href={useBaseUrl('rgaa/intro')}>Lire le guide</a></p>
+              <p><a href={useBaseUrl('guides/guide-wpcli')}>Lire le guide</a></p>
             </article>
 
             <article>
               <h3>Imagik</h3>
-              <p><a href={useBaseUrl('rgaa/intro')}>Lire le guide</a></p>
+              <p><a href={useBaseUrl('guides/guide-imagik')}>Lire le guide</a></p>
             </article>
 
             <article>
               <h3>Htaccess</h3>
-              <p><a href={useBaseUrl('rgaa/intro')}>Lire le guide</a></p>
+              <p><a href={useBaseUrl('guides/guide-htaccess')}>Lire le guide</a></p>
             </article>
             
             <article>
               <h3>Le SSH</h3>
-              <p><a href={useBaseUrl('rgaa/intro')}>Lire le guide</a></p>
+              <p><a href={useBaseUrl('guides/guide-SSH')}>Lire le guide</a></p>
             </article>
 
           </div>
