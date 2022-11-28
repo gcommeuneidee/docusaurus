@@ -70,7 +70,7 @@ Pensez à remplacer le `nomdusite` par le nom du client, sans espace, sans accen
 Rendez vous sur l'url `http://nomdusite.local/` du site pour **terminer l'installation** et renseigner les identifiants de connexion avec :
 
     user : maintenance
-    mdp : Mgcom13!XXX → "XXX" correspond au 3 premières lettres du nom de domaine en majuscule
+    mdp : la formule Gcom
     mail : maintenance@gcommeuneidee.com
 
 
