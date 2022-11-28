@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Wiki Gcom',
   tagline: 'La Bible du Studio',
-  url: 'http://docusaurus.local/',
-  baseUrl: '/',
+  url: 'https://gcommeuneidee.github.io',
+  baseUrl: '/docusaurus/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
