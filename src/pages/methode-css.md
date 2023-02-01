@@ -6,12 +6,12 @@ title: Notre méthode CSS
 
 Proposition d’organisation des déclarateurs CSS afin d’optimiser la lecture, la modification et la maintenance d’une feuille CSS.
 
-- **Position**     => position, z-index, top, left, border-box.
-- **Display**    => display, flex, grid
-- **Espace**     => width, height, margin, padding, object-fit
+- **Position**     => position, top, right, bottom, left, z-index, border-box, float, clear.
+- **Display**    => display, flex, grid, gap, align, justify, order
+- **Espace**     => width, height, box-sizing, margin, padding, object-fit
 - **Couleur**     => color, background
-- **Text**         => font, text, letter, word-wrap
-- **Décoration**     => border, box-shadow, outline, list-style
+- **Text**         => font, font-family, font-size, line-height, font-*, text, letter-spacing, word-
+- **Décoration**     => border, box-shadow, outline, list-*
 - **Modification**     => transform, opacity, visibility, cursor, overflow
 - **Animation**     => animation, transition
 - **Divers**     => pointer-event, content, appearance, etc.
