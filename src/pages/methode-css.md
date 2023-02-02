@@ -29,7 +29,7 @@ Quand il y a un @, il se place tout en haut, avant la moindre déclaration.
 
 position:absolute;bottom:5rem;left:50%;z-index:2;
 display:flex;justify-content:center;
-height:6rem;width:28.8rem;
+width:28.8rem;height:6rem;
 text-transform:uppercase;letter-spacing:0.05rem;
 transform:translateX(-50%);
 /**/outline:1px solid red;
