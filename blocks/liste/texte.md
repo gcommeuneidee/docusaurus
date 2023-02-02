@@ -3,4 +3,4 @@ sidebar_position: 3
 ---
 
 # Texte
-Ce block est ...
+Ce block est le bloc standard de contenu texte.
