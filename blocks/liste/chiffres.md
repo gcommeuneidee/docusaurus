@@ -2,5 +2,5 @@
 sidebar_position: 1
 ---
 
-# Accordéon
+# Chiffres
 Ce block est ...
