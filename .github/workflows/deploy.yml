@@ -13,19 +13,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: yarn
 
       - name: Install dependencies
-        run: yarn install
-      - name: Build website
-        run: yarn build
-        env:
+        run: yarn install --frozen-lockfile
+
+      - name: Make envfile
+        uses: SpicyPizza/create-envfile@v1.3
+        with:
           FIREBASE_API_KEY: ${{ env.FIREBASE_API_KEY }}
           FIREBASE_AUTH_DOMAIN: ${{ env.FIREBASE_AUTH_DOMAIN }}
           FIREBASE_PROJECT_ID: ${{ env.FIREBASE_PROJECT_ID }}
           FIREBASE_STORAGE_BUCKET: ${{ env.FIREBASE_STORAGE_BUCKET }}
+          file_name: .env
+
+      - name: Build website
+        run: yarn build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
@@ -42,4 +49,3 @@ jobs:
           # You can swap them out with your own user credentials.
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
-
