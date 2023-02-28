@@ -121,7 +121,7 @@ const config = {
               {to: '/guides/guide-htaccess', label: 'HTACCESS'},
               {to: '/guides/guide-imagik', label: 'Imagik'},
               {to: '/guides/guide-SSH', label: 'SSH'},
-              {to: '/guides/guide-wpcli', label: 'WP-CLI'},
+              {to: '/guides/guide-gestion', label: 'Échange avec le client'},
             ]
           },
           //{to: '/blog', label: 'Blocks WP', position: 'right'},
