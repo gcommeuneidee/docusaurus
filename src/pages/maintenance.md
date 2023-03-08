@@ -66,4 +66,7 @@ L'accès au BO et au FTP se fait via votre profil **Bureau d'accès à distance*
 2. Activer l'ID de connexion dans le plugin
 3. Aller sur l'admin de la maintenance
 4. Ajouter un nouveau site et renseigner l'ID
-5. Enjoy 😎
+5. Sur le repo GitHub Upptime (https://github.com/gcommeuneidee/upptime), aller dans Settings > Secrets and variables > Actions > New repository secret
+6. Ajouter un nom de secret et l'URL du site en secret
+7. Modifier le fichier .upptimerc.yml et ajouter le nom du site et pour l'url $NOM_DU_SECRET
+8. Enjoy 😎
