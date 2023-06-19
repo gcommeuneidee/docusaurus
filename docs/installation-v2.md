@@ -14,8 +14,9 @@ Voici la nouvelle procédure d'installation, encore en phase de test.
 4. Redémarrer les DNS (clic droit sur le logo WAMP > Outils > Redémarrage DNS)
 
 :::info
-Le dossier cible ne doit pas exister
-Le slug sera le nom du projet en minuscule avec les caractères spéciaux remplacés par des tirets
-La base de donnée aura comme nom le slug, elle ne doit pas déjà exister
-Le virtual host aura comme nom le slug généré + `.local`, il ne doit pas déjà exister
+Les étapes 1 et 2 ne sont à reproduire qu'une seule fois.
+Le dossier cible ne doit pas exister.
+Le slug sera le nom du projet en minuscule avec les caractères spéciaux remplacés par des tirets.
+La base de donnée aura comme nom le slug, elle ne doit pas déjà exister.
+Le virtual host aura comme nom le slug généré + `.local`, il ne doit pas déjà exister.
 :::
