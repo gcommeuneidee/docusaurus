@@ -10,6 +10,7 @@ Liste des sites en contrat de maintenance avec nous. Avec des spécificités pou
 
 | Date anniversaire | Nom du site          | Url                                                        | Hébergeur | Commentaires                                                       |
 |-------------------|----------------------|------------------------------------------------------------|-----------|--------------------------------------------------------------------|
+| 14/06/2023        | Académie de la Truffe           | https://academiedelatruffe.com/                                     | Viaduc   | Accès FTP uniquement avec FileZilla |
 | 26/10/2020        | Aupetit IP           | https://aupetitip.fr/                                      | APB Cloud |                                                                    |
 | 10/10/2019        | Barraco Construction | https://www.barraco-construction.com/                      | OVH       |                                                                    |
 | 08/10/2019        | Beemotion            | https://www.beemotion.eu/                                  | OVH       |                                                                    |
