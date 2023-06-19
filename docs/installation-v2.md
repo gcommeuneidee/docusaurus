@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Installation
+# Installation (v2)
 
 Voici la nouvelle procédure d'installation, encore en phase de test.
 
