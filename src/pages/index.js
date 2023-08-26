@@ -17,7 +17,7 @@ function HomepageHeader() {
   return (
     <header className="accueil__entete">
       <div className="contenu">
-        <h1>La biblffe du Studio</h1>
+        <h1>La bible du Studio</h1>
         <p className='chapeau'>Toutes les documentations, guides et autres ressources à disposition des collaborateurs du Studio.</p>
       </div>
       <img src={colibri} className="illustration" />
