@@ -46,7 +46,7 @@ Chaque colonne peut avoir un alignement spécifique, il suffit de rajouter la cl
 - Aligner à droite : `--right`
 - Aligner en bas : `--bottom`
 
-Pour alignement spécique à un type d'écran, il faut rajouter :
+Pour un alignement spécique à un type d'écran, il faut préciser avec :
 - `-desk` sur ordinateur
 - `-tab` sur tablette
 - `-mob` sur smartphone
