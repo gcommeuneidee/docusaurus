@@ -2,9 +2,9 @@
 title: Coligrid
 ---
 
-# Méthode PECT
+# CSS Coligrid
 
-Proposition d’organisation des déclarateurs CSS afin d’optimiser la lecture, la modification et la maintenance d’une feuille CSS.
+Comment.
 
 - **Position**     => position, top, right, bottom, left, z-index, border-box, float, clear.
 - **Display**    => display, flex, grid, gap, align, justify, order
