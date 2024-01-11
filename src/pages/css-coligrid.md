@@ -2,49 +2,32 @@
 title: Coligrid
 ---
 
-# CSS Coligrid
+# Coligrid
 
-Comment.
+Découvrez comment bien utiliser notre système de colonnes pour la mise en page web.
 
-- **Position**     => position, top, right, bottom, left, z-index, border-box, float, clear.
-- **Display**    => display, flex, grid, gap, align, justify, order
-- **Espace**     => width, height, box-sizing, margin, padding, object-fit
-- **Couleur**     => color, background
-- **Text**         => font, font-family, font-size, line-height, font-*, text, letter-spacing, word-
-- **Décoration**     => border, box-shadow, outline, list-*
-- **Modification**     => transform, opacity, visibility, cursor, overflow
-- **Animation**     => animation, transition
-- **Divers**     => pointer-event, content, appearance, etc.
-- **Debug**        => déclaration(s) temporaire(s), se place après un `/**/`
+Pour établir une rangée de colonnes, il faut les intégrer dans une div avec la class `.coligrid`
+
+## Exemple simple
+```html
+
+<div class="coligrid">
+  <div class="coli-6"></div>
+  <div class="coli-6"></div>
+</div>
+
+```
 
 :::info Note sur @extend et @include :
 Quand il y a un @, il se place tout en haut, avant la moindre déclaration.
 :::
 
-## Exemple
-
-```scss
-
-@extend .maclass;
-
-position:absolute;bottom:5rem;left:50%;z-index:2;
-display:flex;justify-content:center;
-width:28.8rem;height:6rem;
-text-transform:uppercase;letter-spacing:0.05rem;
-transform:translateX(-50%);
-/**/outline:1px solid red;
-
-```
-
 ## Points d'amélioration
 
-- Trouver un nom qui fonctionne à l’international.
-- Qu’en est-il d’un déclarateur multi-niveau (ex : “content”) ? Il peut aussi bien être dans “position” que dans “divers” selon le cas d’usage…
+- RAS.
 
 
 <details>
   <summary>Changelog</summary>
-  <div>0.6 : ajout de l’étape “Debug” et du changelog</div>
-  <hr />
-  <div>0.5 : ajout de l’étage “Display” et précision sur les @extend et @include</div>
+  <div>1.0 : Commit initial</div>
 </details>
