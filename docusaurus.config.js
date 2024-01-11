@@ -108,12 +108,12 @@ const config = {
           {
             label: 'PECT', 
             to: 'methode-css', 
-            position: 'right'
+            position: 'right',
           },
           {
             label: 'Coligrid', 
             to: 'css-coligrid', 
-            position: 'right'
+            position: 'right',
           },
           {
             label:'RGAA',
