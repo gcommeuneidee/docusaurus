@@ -67,7 +67,7 @@ L'ordre des colonnes peut également être inversé, dans la même logique :
 
 ## Points d'amélioration
 
-- Pouvoir mettre un conteneur en full-width.
+- Pouvoir mettre une ligne coligrid en full-width.
 
 
 <details>
