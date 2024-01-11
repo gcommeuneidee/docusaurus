@@ -105,7 +105,16 @@ const config = {
             to: '/blocks/blocks',
             position:'right',
           },
-          {to: 'methode-css', label: 'PECT', position: 'right'},
+          {
+            label: 'PECT', 
+            to: 'methode-css', 
+            position: 'right'
+          },
+          {
+            label: 'Coligrid', 
+            to: 'css-coligrid', 
+            position: 'right'
+          },
           {
             label:'RGAA',
             to: '/rgaa/intro',
