@@ -61,6 +61,10 @@ Pour alignement spécique à un type d'écran, il faut rajouter :
 
 ```
 
+L'ordre des colonnes peut également être inversé, dans la même logique :
+- `--reverse-tab` sur tablette
+- `--reverse-mob` sur smartphone
+
 ## Points d'amélioration
 
 - Pouvoir mettre un conteneur en full-width.
