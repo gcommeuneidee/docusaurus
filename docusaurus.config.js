@@ -42,7 +42,7 @@ const config = {
         id: 'blocks',
         path: 'blocks',
         routeBasePath: 'blocks',
-        sidebarPath: require.resolve('./sidebars.js'),
+        sidebarPath: './sidebars.js',
         // ... autres options
       },
     ],
@@ -52,7 +52,7 @@ const config = {
         id: 'rgaa',
         path: 'rgaa',
         routeBasePath: 'rgaa',
-        sidebarPath: require.resolve('./sidebars.js'),
+        sidebarPath: './sidebars.js',
         // ... autres options
       },
     ],
@@ -62,7 +62,7 @@ const config = {
         id: 'guides',
         path: 'guides',
         routeBasePath: 'guides',
-        sidebarPath: require.resolve('./sidebars.js'),
+        sidebarPath: './sidebars.js',
         // ... autres options
       },
     ],
@@ -73,13 +73,13 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.js',
         },
         blog: {
           showReadingTime: true
         },
         theme: {
-          customCss: require.resolve('./src/assets/css/custom.css'),
+          customCss: './src/assets/css/custom.css',
         },
       }),
     ],
