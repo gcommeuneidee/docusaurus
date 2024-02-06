@@ -1,9 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-import { themes } from 'prism-react-renderer'
-const lightCodeTheme = themes.palenight
-const darkCodeTheme = themes.dracula;
+const lightCodeTheme = require('prism-react-renderer/themes/palenight');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /* @type {import('@docusaurus/types').Config} */
 
@@ -104,39 +103,39 @@ const config = {
           },
           {
             label:'Blocs WP',
-            to: '/blocks/blocks',
+            to: '/blocks/blocks/',
             position:'right',
           },
           {
-            label: 'PECT', 
-            to: 'methode-css', 
+            label: 'PECT',
+            to: 'methode-css/',
             position: 'right',
           },
           {
-            label: 'Coligrid', 
-            to: 'css-coligrid', 
+            label: 'Coligrid',
+            to: 'css-coligrid/',
             position: 'right',
           },
           {
             label:'RGAA',
-            to: '/rgaa/intro',
+            to: '/rgaa/intro/',
             position:'right',
           },
           {
             type: 'dropdown',
             label:'Guides',
-            to: '/guides/guides',
+            to: '/guides/guides/',
             position:'right',
             items: [
-              {to: '/guides/guide-backing', label: 'Backing'},
-              {to: '/guides/guide-htaccess', label: 'HTACCESS'},
-              {to: '/guides/guide-imagik', label: 'Imagik'},
-              {to: '/guides/guide-SSH', label: 'SSH'},
-              {to: '/guides/guide-gestion', label: 'Échange avec le client'},
+              {to: '/guides/guide-backing/', label: 'Backing'},
+              {to: '/guides/guide-htaccess/', label: 'HTACCESS'},
+              {to: '/guides/guide-imagik/', label: 'Imagik'},
+              {to: '/guides/guide-SSH/', label: 'SSH'},
+              {to: '/guides/guide-gestion/', label: 'Échange avec le client'},
             ]
           },
           //{to: '/blog', label: 'Blocks WP', position: 'right'},
-          {to: 'maintenance', label: 'Maintenance', position: 'right'},
+          {to: 'maintenance/', label: 'Maintenance', position: 'right'},
           // {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/gcommeuneidee',
@@ -153,7 +152,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/intro/',
               },
             ],
           },
