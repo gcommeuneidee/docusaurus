@@ -41,7 +41,6 @@ transform:translateX(-50%);
 - Trouver un nom qui fonctionne à l’international.
 - Qu’en est-il d’un déclarateur multi-niveau (ex : “content”) ? Il peut aussi bien être dans “position” que dans “divers” selon le cas d’usage…
 
-
 <details>
   <summary>Changelog</summary>
   <div>0.6 : ajout de l’étape “Debug” et du changelog</div>
