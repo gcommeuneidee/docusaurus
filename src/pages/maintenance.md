@@ -35,7 +35,6 @@ Liste des sites en contrat de maintenance avec nous. Avec des spécificités pou
 | 21/02/2023        | Modern Music Academy  | https://www.modernmusicacademy.fr/                         | OVH                              |                                     |
 | 21/04/2022        | Numaterra             | https://www.numaterra.fr/                                  | One&One                          |                                     |
 | 06/02/2018        | Phone Services        | https://phone-services.fr                                  | OVH                              |                                     |
-| 05/02/2024        | ProbeeCy              | https://probeecy.com/                                      | Ionos                            |                                     |
 | 29/09/2022        | RDV Internet          | https://www.rdvinternet.fr/                                | One&One                          |                                     |
 | 07/11/2022        | Resallience           | https://www.resallience.com/                               | OVH                              |                                     |
 | 21/03/2022        | Rotowash              | https://rotowash.fr/                                       | o2switch                         |                                     |
