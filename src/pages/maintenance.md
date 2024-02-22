@@ -32,7 +32,6 @@ Liste des sites en contrat de maintenance avec nous. Avec des spécificités pou
 | 07/12/2022        | Mairie de Cangey      | https://www.cangey.fr/                                     | OVH                              |                                     |
 | 02/07/2019        | Mairie de Saint Ouen  | https://www.saint-ouen-les-vignes.fr/                      | OVH                              |                                     |
 | 12/04/2022        | Martin Fraudreau      | https://www.martinfraudreau.com/                           | Gandi                            |                                     |
-| 21/02/2023        | Modern Music Academy  | https://www.modernmusicacademy.fr/                         | OVH                              |                                     |
 | 21/04/2022        | Numaterra             | https://www.numaterra.fr/                                  | One&One                          |                                     |
 | 06/02/2018        | Phone Services        | https://phone-services.fr                                  | OVH                              |                                     |
 | 29/09/2022        | RDV Internet          | https://www.rdvinternet.fr/                                | One&One                          |                                     |
