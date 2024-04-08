@@ -26,6 +26,7 @@ Liste des sites en contrat de maintenance avec nous. Avec des spécificités pou
 | 30/11/2021        | Gedo Permanence       | https://www.gedopermanence.fr/                             | One&One                          |                                     |
 | 25/11/2022        | Handimobile           | https://www.handimobile37.fr/                              | One&One                          |                                     |
 | 17/02/2023        | Handisport 37         | https://comite-handisport37.fr/                            | OVH                              |                                     |
+| 08/04/2024        | Inovamed              | https://inovamed.fr/                           | OVH                              |                                     |
 | 01/03/2023        | Kanyon Consulting     | https://www.kanyon-consulting.fr/                          | OVH                              |                                     |
 | 27/09/2018        | Laiterie de Verneuil  | https://laiterie-de-verneuil.com/                          | OVH                              |                                     |
 | 19/10/2022        | Les Jardiniers        | https://restaurantlesjardiniers.fr/                        | Viaduc                           | Accès FTP uniquement avec FileZilla |
