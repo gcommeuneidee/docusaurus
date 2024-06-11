@@ -16,7 +16,7 @@ Liste des sites en contrat de maintenance avec nous. Avec des spécificités pou
 | 26/10/2020        | Aupetit IP            | https://aupetitip.fr/                                      | APB Cloud                        |                                     |
 | 10/10/2019        | Barraco Construction  | https://www.barraco-construction.com/                      | OVH                              |                                     |
 | 08/10/2019        | Beemotion             | https://www.beemotion.eu/                                  | OVH                              |                                     |
-| 23/08/2021        | Burotic               | https://www.burotic.fr/                                    | OVH                              |                                     |
+| 23/08/2021        | Burotic               | https://www.burotic.fr/                                    | o2switch                         |                                     |
 | 25/03/2020        | Chasseur sous marin   | https://www.lechasseursousmarin.com/                       | o2switch                         |                                     |
 | 28/10/2020        | Convergens            | https://www.convergens-avocats.fr/                         | One&One                          |                                     |
 | 12/12/2023        | Degrav'Agri           | https://www.degrav-agri.fr/                                | OVH                              |                                     |
