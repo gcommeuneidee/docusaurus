@@ -117,6 +117,11 @@ const config = {
             position: 'right',
           },
           {
+            label: 'Checklist',
+            to: 'checklist/',
+            position: 'right',
+          },
+          {
             label:'RGAA',
             to: '/rgaa/intro/',
             position:'right',
