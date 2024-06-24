@@ -37,7 +37,6 @@ Liste des sites en contrat de maintenance avec nous. Avec des spécificités pou
 | 06/02/2018        | Phone Services        | https://phone-services.fr                                  | o2switch                         |                                     |
 | 29/09/2022        | RDV Internet          | https://www.rdvinternet.fr/                                | One&One                          |                                     |
 | 07/11/2022        | Resallience           | https://www.resallience.com/                               | OVH                              |                                     |
-| 21/03/2022        | Rotowash              | https://rotowash.fr/                                       | o2switch                         |                                     |
 | 01/01/2017        | Sennegon              | https://www.sennegon.com/                                  | OVH                              | géré sur le compte OVH Gcom         |
 | 20/05/2022        | Weser                 | https://weser.fr/                                          | OVH                              |                                     |
 | 18/01/2021        | Yona Design           | https://www.yona-design.com/                               | OVH                              |                                     |
