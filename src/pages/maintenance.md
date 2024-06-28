@@ -38,6 +38,7 @@ Liste des sites en contrat de maintenance avec nous. Avec des spécificités pou
 | 29/09/2022        | RDV Internet          | https://www.rdvinternet.fr/                                | One&One                          |                                     |
 | 07/11/2022        | Resallience           | https://www.resallience.com/                               | OVH                              |                                     |
 | 01/01/2017        | Sennegon              | https://www.sennegon.com/                                  | OVH                              | géré sur le compte OVH Gcom         |
+| 28/02/2022        | TMB PLLL              | https://toursmetropolebasket-plll.com/                     | o2switch                         |                                     |
 | 20/05/2022        | Weser                 | https://weser.fr/                                          | OVH                              |                                     |
 | 18/01/2021        | Yona Design           | https://www.yona-design.com/                               | OVH                              |                                     |
 
@@ -62,6 +63,14 @@ L'accès au BO et au FTP se fait via votre profil **Bureau d'accès à distance*
 | 06/04/2022        | Archipel        | --                               | VINCI     | Sur l'intranet |
 | 31/03/2022        | Empreinte       | --                               | VINCI     | Sur l'intranet |
 | 06/04/2022        | Fondation VINCI | https://www.fondation-vinci.com/ | VINCI     |                |
+
+L'édition des fichiers passe par le **Gitlab VINCI Communication**
+
+| Date anniversaire | Nom du site     | Url                              | Hébergeur | Commentaires   |
+|-------------------|-----------------|----------------------------------|-----------|----------------|
+| 20/07/2023        | ViE             | https://www.vinci-vie.fr/        | VINCI     |                |
+| 04/04/2023        | Actionnaires    | https://actionnaires.vinci.com/  | VINCI     |                |
+
 
 ## Procédure d'une mise en maintenance
 
