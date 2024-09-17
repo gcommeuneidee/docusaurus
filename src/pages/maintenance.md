@@ -13,7 +13,7 @@ Liste des sites en contrat de maintenance avec nous. Avec des spécificités pou
 | 14/06/2023        | Académie de la Truffe | https://academiedelatruffe.com/                            | Viaduc                           | Accès FTP uniquement avec FileZilla |
 | 01/11/2023        | Agence CMS            | https://www.agencecms.fr/                                  | SOS Data / Cogent Communications |                                     |
 | ?                 | Alterpaint            | https://www.alterpaint.com/                                | OVH                              |                                     |
-| ?                 | ARAPI Autisme         | https://site.arapi-autisme.fr/                             | OVH                              |                                     |
+| 15/02/2024        | ARAPI Autisme         | https://site.arapi-autisme.fr/                             | OVH                              |                                     |
 | 26/10/2020        | Aupetit IP            | https://aupetitip.fr/                                      | APB Cloud                        |                                     |
 | 10/10/2019        | Barraco Construction  | https://www.barraco-construction.com/                      | OVH                              |                                     |
 | 08/10/2019        | Beemotion             | https://www.beemotion.eu/                                  | OVH                              |                                     |
