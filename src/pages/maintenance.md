@@ -13,6 +13,7 @@ Liste des sites en contrat de maintenance avec nous. Avec des spécificités pou
 | 14/06/2023        | Académie de la Truffe | https://academiedelatruffe.com/                            | Viaduc                           | Accès FTP uniquement avec FileZilla |
 | 01/11/2023        | Agence CMS            | https://www.agencecms.fr/                                  | SOS Data / Cogent Communications |                                     |
 | ?                 | Alterpaint            | https://www.alterpaint.com/                                | OVH                              |                                     |
+| ?                 | ARAPI Autisme         | https://site.arapi-autisme.fr/                             | OVH                              |                                     |
 | 26/10/2020        | Aupetit IP            | https://aupetitip.fr/                                      | APB Cloud                        |                                     |
 | 10/10/2019        | Barraco Construction  | https://www.barraco-construction.com/                      | OVH                              |                                     |
 | 08/10/2019        | Beemotion             | https://www.beemotion.eu/                                  | OVH                              |                                     |
@@ -20,6 +21,7 @@ Liste des sites en contrat de maintenance avec nous. Avec des spécificités pou
 | 25/03/2020        | Chasseur sous marin   | https://www.lechasseursousmarin.com/                       | o2switch                         |                                     |
 | 28/10/2020        | Convergens            | https://www.convergens-avocats.fr/                         | One&One                          |                                     |
 | 12/12/2023        | Degrav'Agri           | https://www.degrav-agri.fr/                                | OVH                              |                                     |
+| 16/07/2024        | Devin Collection      | https://devincollection.fr/                                | o2switch                         |                                     |
 | 12/05/2020        | Domaine de Poulaines  | https://www.domaine-poulaines.com/                         | OVH                              |                                     |
 | --                | G Comme Une Idée      | https://www.gcommeuneidee.com/                             | OVH                              |                                     |
 | 18/03/2021        | Gardon Mollard        | https://gardon-mollard-guillaume.chirurgiens-dentistes.fr/ | OVH                              |                                     |
