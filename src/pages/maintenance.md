@@ -55,7 +55,9 @@ L'accès au BO se fait via votre profil **Global Protect** fourni par le **SI VI
 | Date anniversaire | Nom du site                      | Url                                                 | Hébergeur          | Commentaires |
 |-------------------|----------------------------------|-----------------------------------------------------|--------------------|--------------|
 | 06/04/2022        | Chantiers Territoires Solidaires | https://www.chantiers-et-territoires-solidaires.fr/ | VINCI Construction |              |
+| 10/09/2024        | Geocean                          | https://www.geocean.com/                            | VINCI Construction |              |
 | 31/03/2022        | Geostock                         | https://www.geostockgroup.com/                      | VINCI Construction |              |
+| 24/09/2024        | Inclusion                        | https://inclusion.vinci-construction.com/           | VINCI Construction |              |
 
 ## Liste des sites VINCI Group
 
