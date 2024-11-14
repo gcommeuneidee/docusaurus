@@ -5,10 +5,10 @@ sidebar_position: 2
 # Git & VINCI Construction
 
 Repos VINCI : https://vcsi.visualstudio.com/VCSI%20Web%20Sites
-Préequis : Avoir une installation lié au repo en local
+Prérequis : Avoir une installation liée au repo en local
 
 ## Procédure 
-Etape de mise à jour :
+Étapes de mise à jour :
 
 - Modification des fichiers
 - Publication sur la branche de préprod (PPD)
@@ -43,7 +43,7 @@ git push origin PRD
 
 ### /!\ Important 
 
-Une fois le push sur la PRD faite, penser à se remettre sur la PPD pour les prochaines modifications
+Une fois le push sur la PRD effectué, penser à se remettre sur la PPD pour les prochaines modifications
 
 ```bash
 git checkout PPD
@@ -51,17 +51,17 @@ git checkout PPD
 
 ### Retirer le repo existant (si besoin)
 
-Si un dépôt existant (comme 'gcom') est déjà configuré et doit être retiré, utilisez la commande suivante :
+Si un dépôt existant ('gcom') est déjà configuré et doit être retiré, utilisez la commande suivante :
 
 ```bash
 git remote remove origin
 ```
 
-### Connecter mon dossier au repo distant 
+### Connecter mon dossier au repo distant
 
 Connecter mon dossier au repo distant
 
-Pour connecter un dossier local à un référentiel Git distant, suivez les étapes suivantes :
+Pour connecter un dossier local à un repo Git distant, suivez les étapes suivantes :
 
 1. Initialiser le dépôt local (si ce n'est pas déjà fait) :
 
@@ -94,8 +94,6 @@ Pour connecter un dossier local à un référentiel Git distant, suivez les éta
     ```
 
     Cela enverra les modifications vers la branche principale (master ou main). Utilisez -u pour lier la branche locale à la branche distante.
-
-
 
 ## Commande utile
 
