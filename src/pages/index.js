@@ -79,6 +79,11 @@ export default function Home() {
             </article>
 
             <article>
+              <h3>Git & VINCI Construction</h3>
+              <p><a href={useBaseUrl('guides/guide-git-vinci')}>Lire le guide</a></p>
+            </article>
+
+            <article>
               <h3>Htaccess</h3>
               <p><a href={useBaseUrl('guides/guide-htaccess')}>Lire le guide</a></p>
             </article>

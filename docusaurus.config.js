@@ -135,6 +135,7 @@ const config = {
               {to: '/guides/guide-backing/', label: 'Backing'},
               {to: '/guides/guide-htaccess/', label: 'HTACCESS'},
               {to: '/guides/guide-imagik/', label: 'Imagik'},
+              {to: '/guides/guide-git-vinci/', label: 'GIT & Vinci Construction'},
               {to: '/guides/guide-SSH/', label: 'SSH'},
               {to: '/guides/guide-gestion/', label: 'Échange avec le client'},
             ]
