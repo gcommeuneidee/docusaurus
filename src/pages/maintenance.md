@@ -40,6 +40,7 @@ Liste des sites en contrat de maintenance avec nous. Avec des spécificités pou
 | 02/07/2019        | Mairie de Saint Ouen  | https://www.saint-ouen-les-vignes.fr/                      | OVH                              |                                     |
 | 12/04/2022        | Martin Fraudreau      | https://www.martinfraudreau.com/                           | Gandi                            |                                     |
 | 21/04/2022        | Numaterra             | https://www.numaterra.fr/                                  | One&One                          |                                     |
+| 07/05/2025        | PAM Conseil           | https://www.pamconseil.fr/                                 | OVH                              |                                     |
 | 06/02/2018        | Phone Services        | https://phone-services.fr                                  | o2switch                         |                                     |
 | 29/09/2022        | RDV Internet          | https://www.rdvinternet.fr/                                | One&One                          |                                     |
 | 07/11/2022        | Resallience           | https://www.resallience.com/                               | OVH                              |                                     |
