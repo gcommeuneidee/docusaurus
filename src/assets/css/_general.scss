@@ -1,0 +1,190 @@
+* {-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+
+html {
+	text-rendering:optimizeLegibility;font-size: 62.5%;
+}
+
+body {
+	font-family:'Lato', sans-serif;font-size:1.8rem;line-height:1.7em;
+}
+
+/*
+**
+*/
+h1, h2, h3, h4 {
+	font-family:'Lato', sans-serif;font-weight:900;
+}
+h1, .hero__title {
+	font-size:8rem;
+}
+
+h2 {
+	margin-top:$pige/2;
+	font-size:3rem;
+}
+
+h3 {
+	font-size:2.4rem;
+}
+
+main article {
+	ol, ul {
+		margin:0 0 30px 30px;
+	}
+
+	.theme-admonition {
+		margin:0 0 50px 0;
+	}
+}
+
+
+/*
+**
+*/
+.navbar {
+	height:auto;padding:0 2rem;
+	box-shadow:(0 6px 20px rgba(#000, .05));
+
+	&__logo {
+		height:4rem;
+	}
+
+	&__items {
+		&--right {
+
+			button {
+				@extend .buttonreset;
+
+				margin-right:2rem;
+				color:#000;
+				cursor:pointer;
+
+				svg {
+					width:auto;height:16px;
+				}
+
+				&:hover {
+					color:$rose;
+				}
+			}
+		}
+	}
+
+	&__link {
+		padding:1.4rem 1.8rem;
+		font-size:1.4rem;text-transform:uppercase;font-weight:900;
+		border-right:1px solid #ddd;
+
+		&:hover {
+			background-color:$rose;color:#fff;
+		}
+	}
+
+	&__item {
+
+
+		&:last-of-type {
+			margin-right:2rem;
+		}
+	}
+
+	.dropdown {
+		&__link {
+			font-size:1.1rem;text-transform:uppercase;font-weight:900;
+		}
+	}
+	
+}
+
+
+/*
+**
+*/
+.footer {
+	background-color:black;
+	font-size:1.6rem;
+
+	&__title {
+		font-size:1.6rem;
+	}
+
+	&__copyright {
+		font-size:1.2rem;
+	}
+}
+
+/*
+**
+*/
+.trello {
+
+	iframe {
+		width:75vw;height:80vh;
+	}
+}
+
+
+/*
+**
+*/
+.breadcrumbs {
+	font-size:1.2rem;
+
+	&__link {
+		padding:.5rem 1rem;
+		font-size:1.2rem;line-height:1em;
+
+		svg {
+			height:1.2rem;width:auto;
+		}
+
+		&:any-link:hover {
+			background-color:$rose;color:#fff;
+		}
+	}
+
+	&__item--active span.breadcrumbs__link {
+		color:#333;
+	}
+}
+
+/*
+**
+*/
+.menu {
+	margin-top:2rem;
+	font-size:1.6rem;
+
+	&__list .menu__list {
+		margin:0;
+		font-size:.8em;
+
+		.menu__link--active {
+			border-left:4px solid $rose;
+		}
+	}
+
+	&__list-item:not(:first-child) {
+		margin:0;
+	}
+
+	&__link {
+		padding:1.4rem 1.2rem;
+		color:#000;border-bottom:1px solid #ddd;border-radius:0;
+
+		&--active {
+			color:$rose;
+		}
+		&--active:not(.menu__link--sublist) {
+			background-color:transparent;
+		}
+	}
+}
+
+/*
+**
+*/
+.table-of-contents {
+	margin-top:2rem;
+	font-size:1.2rem;
+}
