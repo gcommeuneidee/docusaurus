@@ -22,7 +22,7 @@ Liste des sites en contrat de maintenance avec nous. Avec des spécificités pou
 | 24/03/2025        | Céline Da Graça Pires  | https://celinedagracapires-consulting.com/                 | OVH                              |                                     |
 | 25/03/2020        | Chasseur sous marin    | https://www.lechasseursousmarin.com/                       | o2switch                         |                                     |
 | 28/10/2020        | Convergens             | https://www.convergens-avocats.fr/                         | One&One                          |                                     |
-| 24/06/2025        | Copelva                | https://www.copelva.fr/                                    | o2switch                          |                                     |
+| 24/06/2025        | Copelva                | https://www.copelva.fr/                                    | o2switch                         |                                     |
 | 12/12/2023        | Degrav'Agri            | https://www.degrav-agri.fr/                                | OVH                              |                                     |
 | 16/07/2024        | Devin Collection       | https://devincollection.fr/                                | o2switch                         |                                     |
 | 12/05/2020        | Domaine de Poulaines   | https://www.domaine-poulaines.com/                         | OVH                              |                                     |
@@ -40,6 +40,7 @@ Liste des sites en contrat de maintenance avec nous. Avec des spécificités pou
 | 07/12/2022        | Mairie de Cangey       | https://www.cangey.fr/                                     | OVH                              |                                     |
 | 02/07/2019        | Mairie de Saint Ouen   | https://www.saint-ouen-les-vignes.fr/                      | OVH                              |                                     |
 | 12/04/2022        | Martin Fraudreau       | https://www.martinfraudreau.com/                           | Gandi                            |                                     |
+| 28/07/2025        | Nudjy                  | https://nudjy.fr                                           | o2switch                         |                                     |
 | 21/04/2022        | Numaterra              | https://www.numaterra.fr/                                  | One&One                          |                                     |
 | 07/05/2025        | PAM Conseil            | https://www.pamconseil.fr/                                 | OVH                              |                                     |
 | 06/02/2018        | Phone Services         | https://phone-services.fr                                  | o2switch                         |                                     |
@@ -75,13 +76,13 @@ L'accès au BO et au FTP se fait via votre profil **Bureau d'accès à distance*
 
 L'édition des fichiers passe par le **Gitlab VINCI Communication**
 
-| Date anniversaire | Nom du site     | Url                              | Hébergeur | Commentaires   |
-|-------------------|-----------------|----------------------------------|-----------|----------------|
-| 20/07/2023        | ViE             | https://www.vinci-vie.fr/        | VINCI     |                |
-| 04/04/2023        | Actionnaires    | https://actionnaires.vinci.com/  | VINCI     |                |
-| 03/03/2025        | Castor          | https://castor.vinci.com/        | VINCI     |                |
-| 26/03/2025        | La Lettre        | https://lalettre.vinci.net/        | VINCI     | Accès bureau à distance |
-| 26/03/2025        | Les Lignes Directrice | https://supplychaintoolkit.vinci.net/  | VINCI     | Accès bureau à distance |
+| Date anniversaire | Nom du site           | Url                                    | Hébergeur | Commentaires                        |
+|-------------------|-----------------------|----------------------------------------|-----------|-------------------------------------|
+| 20/07/2023        | ViE                   | https://www.vinci-vie.fr/              | VINCI     |                                     |
+| 04/04/2023        | Actionnaires          | https://actionnaires.vinci.com/        | VINCI     |                                     |
+| 03/03/2025        | Castor                | https://castor.vinci.com/              | VINCI     |                                     |
+| 26/03/2025        | La Lettre             | https://lalettre.vinci.net/            | VINCI     | Accès bureau à distance             |
+| 26/03/2025        | Les Lignes Directrice | https://supplychaintoolkit.vinci.net/  | VINCI     | Accès bureau à distance             |
 
 ## Procédure d'une mise en maintenance
 
